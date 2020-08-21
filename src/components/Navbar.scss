@@ -1,13 +1,22 @@
 // Color variables
 $primary-color: #96c3ec;
 $secondary-color: #fbe192;
+$text-color: steelblue;
+$primary-accent: #f9d362;
+$divider-color: #c6bdb8;
+
+a {
+  text-decoration: none;
+  color: $text-color;
+}
 
 .navContainer {
   width: 100%;
-  //border: 1px solid black;
+  //   border: 1px solid black;
   background-color: $secondary-color;
   display: flex;
   justify-content: center;
+  border-bottom: 2px solid $primary-accent;
 
   .navDiv {
     //border: 1px solid red;
@@ -18,13 +27,40 @@ $secondary-color: #fbe192;
     .leftSideNav {
       //border: 1px solid blue;
       display: flex;
+      justify-content: space-evenly;
       align-items: center;
+      width: 25%;
+
+      h1 {
+        color: $text-color;
+      }
     }
 
     .rightSideNav {
       //border: 1px solid green;
       display: flex;
+      justify-content: flex-end;
       align-items: center;
+      width: 50%;
+
+      .navLinks {
+        //border: 2px solid purple;
+        height: 50%;
+        width: 40%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-right: 25px;
+        border-right: 2px solid $divider-color;
+      }
+
+      .onboardingLinks {
+        //border: 2px solid black;
+        width: 30%;
+        height: 50%;
+        display: flex;
+        justify-content: space-evenly;
+      }
     }
   }
 }

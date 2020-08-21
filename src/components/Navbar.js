@@ -20,8 +20,8 @@ export default function Navbar() {
             <a>Learn More</a>
           </div>
           <div className="onboardingLinks">
-            <a href="#">Log in</a>
-            <a href="#">Sign up</a>
+            <button href="#">Log in</button>
+            <button href="#">Sign up</button>
           </div>
         </div>
       </div>
