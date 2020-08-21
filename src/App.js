@@ -1,10 +1,12 @@
 import React from "react";
 import "./App.scss";
 
+import Navbar from "./components/Navbar.js";
+
 function App() {
   return (
     <div className="App">
-      <p>hello world</p>
+      <Navbar />
     </div>
   );
 }

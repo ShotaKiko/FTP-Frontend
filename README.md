@@ -4,6 +4,10 @@
 
 FTP is an app that consolidates all the aspects of planning, preparing and executing a field trip succesfully.
 
+#### Tech Stack
+
+HTML | CSS | Javascript | React | Redux | Node | Express | GraphQL | Bootstrap | Sass
+
 #### Features
 
 <li> User onboarding and subsequent user role assignment 
