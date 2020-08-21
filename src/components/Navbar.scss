@@ -1,0 +1,30 @@
+// Color variables
+$primary-color: #96c3ec;
+$secondary-color: #fbe192;
+
+.navContainer {
+  width: 100%;
+  //border: 1px solid black;
+  background-color: $secondary-color;
+  display: flex;
+  justify-content: center;
+
+  .navDiv {
+    //border: 1px solid red;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+
+    .leftSideNav {
+      //border: 1px solid blue;
+      display: flex;
+      align-items: center;
+    }
+
+    .rightSideNav {
+      //border: 1px solid green;
+      display: flex;
+      align-items: center;
+    }
+  }
+}
