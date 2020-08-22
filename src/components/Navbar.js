@@ -2,6 +2,8 @@ import React from "react";
 import Bus from "../icons/cuteBus.png";
 import "./Navbar.scss";
 
+import { Button } from "reactstrap";
+
 export default function Navbar() {
   return (
     <div className="navContainer">
@@ -16,12 +18,16 @@ export default function Navbar() {
         </div>
         <div className="rightSideNav">
           <div className="navLinks">
-            <a>How it works</a>
-            <a>Learn More</a>
+            <a href="#">How it works</a>
+            <a href="#">Learn More</a>
           </div>
           <div className="onboardingLinks">
-            <button href="#">Log in</button>
-            <button href="#">Sign up</button>
+            <Button outline color="primary" href="#">
+              Sign up
+            </Button>
+            <Button color="primary" href="#">
+              Log in
+            </Button>
           </div>
         </div>
       </div>

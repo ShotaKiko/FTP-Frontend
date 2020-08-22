@@ -17,6 +17,7 @@ a {
   display: flex;
   justify-content: center;
   border-bottom: 2px solid $primary-accent;
+  height: 9vh;
 
   .navDiv {
     //border: 1px solid red;
@@ -25,11 +26,11 @@ a {
     justify-content: space-evenly;
 
     .leftSideNav {
-      //border: 1px solid blue;
+      // border: 1px solid blue;
       display: flex;
       justify-content: flex-start;
       align-items: center;
-      width: 25%;
+      width: 30%;
 
       h1 {
         padding-left: 10px;
