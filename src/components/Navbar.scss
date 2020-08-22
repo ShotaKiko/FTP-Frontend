@@ -27,11 +27,12 @@ a {
     .leftSideNav {
       //border: 1px solid blue;
       display: flex;
-      justify-content: space-evenly;
+      justify-content: flex-start;
       align-items: center;
       width: 25%;
 
       h1 {
+        padding-left: 10px;
         color: $text-color;
       }
     }

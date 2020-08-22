@@ -6,7 +6,7 @@ FTP is an app that consolidates all the aspects of planning, preparing and execu
 
 #### Tech Stack
 
-HTML | CSS | Javascript | React | Redux | Node | Express | GraphQL | Bootstrap | Sass
+HTML | CSS | Javascript | React | Redux | Node | Express | PostgreSQL | Reactstrap | Sass
 
 #### Features
 
@@ -19,3 +19,9 @@ HTML | CSS | Javascript | React | Redux | Node | Express | GraphQL | Bootstrap |
         <li>Transportation --- relay eta/ view field trip info
     </ul>
 <li>Create and edit fieldtrips
+
+### App Architecture
+
+Preliminary Structure
+
+![](./DesignDocs/Architecture/Architecture.png)
