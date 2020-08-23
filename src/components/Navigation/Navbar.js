@@ -1,5 +1,5 @@
 import React from "react";
-import Bus from "../icons/cuteBus.png";
+import Bus from "../../icons/cuteBus.png";
 import "./Navbar.scss";
 
 import { Button } from "reactstrap";
