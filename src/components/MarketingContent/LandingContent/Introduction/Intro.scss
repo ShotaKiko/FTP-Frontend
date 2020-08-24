@@ -1,0 +1,34 @@
+.intro-container {
+  border: 2px solid red;
+  background-color: #fff;
+  margin-top: 5vh;
+
+  display: flex;
+  justify-content: center;
+
+  .leftSide {
+    border: 2px solid blue;
+
+    .jumbotron {
+      background-color: white;
+    }
+
+    h2 {
+      font-size: 3rem;
+      color: black;
+    }
+
+    .messageDiv {
+      border: 2px dashed black;
+    }
+
+    .signUpOptions {
+      border: 2px solid gold;
+    }
+  }
+
+  .rightSide {
+    border: 2px solid green;
+    width: 40%;
+  }
+}
