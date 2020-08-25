@@ -2,13 +2,13 @@ import React from "react";
 import "./App.scss";
 
 import Navbar from "./components/Navigation/Navbar.js";
-import VideoPlayer from "./components/MarketingContent/LandingContent/VideoPlayer/VideoPlayer.js";
+import Intro from "./components/MarketingContent/LandingContent/Introduction/Intro";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <VideoPlayer />
+      <Intro />
     </div>
   );
 }

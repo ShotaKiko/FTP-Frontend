@@ -9,8 +9,8 @@ export default function LandingDiv() {
         className="react-player"
         light={false}
         url="https://www.youtube.com/watch?v=EWPFmdAWRZ0"
-        width="35%"
-        height="35%"
+        width="80%"
+        height="80%"
         style={{
           minHeight: "200px",
           minWidth: "300px",

@@ -1,0 +1,49 @@
+.intro-container {
+  // border: 2px solid red;
+  background-color: #fff;
+  margin-top: 5vh;
+
+  display: flex;
+  justify-content: center;
+
+  .leftSide {
+    // border: 2px solid blue;
+
+    .jumbotron {
+      background-color: white;
+    }
+
+    h2 {
+      font-size: 3.5rem;
+      color: black;
+      text-align: left;
+    }
+
+    p {
+      font-size: 1.5rem;
+      text-align: left;
+    }
+
+    .options {
+      // border: 2px solid orange;
+      display: flex;
+      justify-content: space-evenly;
+
+      img {
+        width: 40px;
+        height: 40px;
+      }
+
+      .signInOptionButton {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+    }
+  }
+
+  .rightSide {
+    // border: 2px solid green;
+    width: 40%;
+  }
+}
