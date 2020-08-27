@@ -1,4 +1,5 @@
 import React from "react";
+import "./AdditionalInfo.scss";
 import { Card, CardTitle, CardText, CardGroup, CardBody } from "reactstrap";
 
 import Plan from "../../../../icons/infoIcons/plan.svg";

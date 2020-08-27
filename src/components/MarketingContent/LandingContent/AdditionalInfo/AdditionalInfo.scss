@@ -1,0 +1,19 @@
+.additionalInfo-container {
+  //   border: 2px solid black;
+  background-color: #f5f5f3;
+  margin-top: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 300px;
+
+  .purposeMessageDiv {
+    width: 40%;
+    margin-top: 2vh;
+  }
+  .cardGroup {
+    width: 70%;
+    margin-bottom: 3vh;
+  }
+}
